@@ -1,6 +1,6 @@
-# DIma Shop
+# Dima Shop
 
-DIma Shop یک فروشگاه‌ساز رایگان، سبک و ماژولار با PHP و MySQL است که از درگاه پرداخت زرین‌پال پشتیبانی می‌کند و رابط کاربری آن با Tailwind CSS ساخته شده است. هدف، ارائه‌ی یک هسته‌ی امن و توسعه‌پذیر شبیه فروشگاه‌سازهایی مانند WooCommerce است.
+Dima Shop یک فروشگاه‌ساز رایگان، سبک و ماژولار با PHP و MySQL است که از درگاه پرداخت زرین‌پال پشتیبانی می‌کند و رابط کاربری آن با Tailwind CSS ساخته شده است. هدف، ارائه‌ی یک هسته‌ی امن و توسعه‌پذیر شبیه فروشگاه‌سازهایی مانند WooCommerce است.
 
 - معماری: MVC سبک با Router سفارشی
 - پایگاه‌داده: MySQL با PDO و کوئری‌های آماده (Prepared)
@@ -32,7 +32,7 @@ DIma Shop یک فروشگاه‌ساز رایگان، سبک و ماژولار �
 ## نصب سریع
 
 1) کلون مخزن
-- `git clone https://github.com/balvardi/dimashop.git`
+- `git clone https://github.com/balvardi/Dimashop.git`
 - DocumentRoot وب‌سرور را روی پوشه `public` تنظیم کنید.
 
 2) پایگاه‌داده
@@ -44,7 +44,7 @@ DIma Shop یک فروشگاه‌ساز رایگان، سبک و ماژولار �
 - فایل `app/Config.php` را ویرایش کنید:
   - `DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASS`
   - `APP_URL` (بدون اسلش انتهایی، مثال: `https://your-domain.com`)
-  - `APP_NAME = "DIma Shop"`
+  - `APP_NAME = "Dima Shop"`
   - `ZARINPAL_MERCHANT_ID` (مرچنت زرین‌پال)
   - `ZARINPAL_SANDBOX` (true برای تست، false برای عملیاتی)
   - `ZARINPAL_AMOUNT_IN_RIAL` (true اگر مبلغ را باید به ریال ارسال کنید)
@@ -56,7 +56,7 @@ DIma Shop یک فروشگاه‌ساز رایگان، سبک و ماژولار �
   server {
     listen 80;
     server_name your-domain.com;
-    root /path/to/dimashop/public;
+    root /path/to/Dimashop/public;
 
     index index.php index.html;
     location / {
@@ -83,7 +83,7 @@ DIma Shop یک فروشگاه‌ساز رایگان، سبک و ماژولار �
 ## تنظیمات
 
 - `app/Config.php`:
-  - `APP_NAME`: نام فروشگاه (به‌صورت پیش‌فرض `DIma Shop`)
+  - `APP_NAME`: نام فروشگاه (به‌صورت پیش‌فرض `Dima Shop`)
   - `APP_URL`: آدرس اصلی سایت (برای ریدایرکت‌ها و Callback)
   - `CURRENCY`: `Toman` یا `Rial`
   - `ZARINPAL_AMOUNT_IN_RIAL`: اگر زرین‌پال شما مبلغ را به ریال می‌پذیرد `true` بگذارید تا مبلغ تومانی در 10 ضرب شود.
@@ -264,12 +264,10 @@ Options -ExecCGI
 ```
 MIT License
 
-Copyright (c) 2025 ...
+Copyright (c) 2025 DIMA SOFTWARE GROUP
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction...
 ```
 ```
-
-
