@@ -260,9 +260,9 @@ Options -ExecCGI
 
 ## مجوز
 
-این پروژه تحت مجوز MIT منتشر می‌شود. برای استفاده‌ی تجاری و شخصی آزادید؛ لطفاً کپی‌رایت را حفظ کنید.
+این پروژه تحت مجوز GNU GENERAL PUBLIC LICENSE منتشر می‌شود. برای استفاده‌ی تجاری و شخصی آزادید؛ لطفاً کپی‌رایت را حفظ کنید.
 ```
-MIT License
+GNU GENERAL PUBLIC LICENSE 
 
 Copyright (c) 2025 DIMA SOFTWARE GROUP
 
