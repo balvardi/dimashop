@@ -199,9 +199,9 @@ DimaShop_ECCMS_Ver_4.0.0.2/
 
 ## 📞 پشتیبانی
 
-- **ایمیل**: support@dimashop.com
+- **ایمیل**: support@dimashop.ir
 - **مستندات**: `/docs/`
-- **GitHub**: [https://github.com/dimashop](https://github.com/dimashop)
+- **GitHub**: [https://github.com/balvardi/dimashop](https://github.com/balvardi/dimashop)
 
 ## 🔄 به‌روزرسانی
 
